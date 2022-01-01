@@ -21,7 +21,7 @@ steps:
   inputs:
     command: 'init'
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes/'
-    commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public-key=$(publicKey.secureFilePath)'
+    commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(publicKey.secureFilePath)'
 - task: DownloadSecureFile@1
   name: publicKey
   inputs:
