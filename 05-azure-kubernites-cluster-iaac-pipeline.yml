@@ -37,4 +37,4 @@ steps:
     backendAzureRmStorageAccountName: 'storageaccountakbar1982'
     backendAzureRmContainerName: 'storageaccountakbarcontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
-    allowTelemetryCollection: true
+    allowTelemetryCollection: false
