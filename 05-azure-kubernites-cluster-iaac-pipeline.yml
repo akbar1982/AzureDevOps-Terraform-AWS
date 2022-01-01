@@ -12,18 +12,12 @@ pool:
 steps:
 - script: echo K8S Terraform Azure!
   displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
   
 - task: DownloadSecureFile@1
   name: publickey
   inputs:
     secureFile: 'azure_rsa.pub'
-   
-  
+ 
 - task: TerraformCLI@0
   inputs:
     command: 'init'
