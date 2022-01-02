@@ -1,5 +1,5 @@
-variable client_id {e60e06a1-3c57-45fb-8cd7-69c6dc9b4fb5}
-variable client_secret {MwhiFOGCmSqMr8xG~2Qsl3Jv1Wi_o86onU}
+variable client_id {}
+variable client_secret {}
 variable ssh_public_key {}
 
 variable environment {
